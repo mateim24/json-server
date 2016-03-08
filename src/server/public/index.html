@@ -68,7 +68,7 @@
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script>
       $(function() {
-        $.get('db').then(function(data) {
+        $.get('db/').then(function(data) {
           $('#resources').empty();
           $.each(data, function(key, value) {
             $('#resources')
